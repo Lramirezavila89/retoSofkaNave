@@ -14,17 +14,21 @@ _3. Ejecutamos la URL **localhost/phpmyadmin/** y creamos una nueva base de dato
 
 ## Pre-requisitos 📋
 
-_Ejecutar xampp e instalar en el disco local _
+_1.Ejecutar xampp e instalar en el disco local_
 
 ```
 C:/xampp
 ```
 
-_Activar las casillas Apache y MYSQL _
+_2. Activar las casillas Apache y MYSQL_
 
 ![Ejemplo](https://milenaavilezodontologa.com/retoSofkaNaves/vista/img/1.png)
 
+_3. copiamos los archivos descargados y los pegamos en la ruta de localhost donde crearemos una carpeta llamda <sub>retoSofkaNave</sub>_
 
+```
+C:/xampp/htdocs/
+```
 
 ## Instalación 🔧
 
