@@ -12,15 +12,21 @@ _2. Descargar el repositorio de **Github** /retoSofkaNave el cual contiene todos
 _3. Ejecutamos la URL **localhost/phpmyadmin/** y creamos una nueva base de datos llamada "naves", donde vamos a importar el archivo <sub>naves.sql</sub>_
 
 
-### Pre-requisitos 📋
+## Pre-requisitos 📋
 
-_Que cosas necesitas para instalar el software y como instalarlas_
+_Ejecutar xampp e instalar en el disco local _
 
 ```
-Da un ejemplo
+C:/xampp
 ```
 
-### Instalación 🔧
+_Activar las casillas Apache y MYSQL _
+
+![Ejemplo](https://milenaavilezodontologa.com/retoSofkaNaves/vista/img/1.png)
+
+
+
+## Instalación 🔧
 
 _Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
 
