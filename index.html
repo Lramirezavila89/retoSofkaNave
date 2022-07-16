@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recto Técnico: Training League</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="vista/css/estilo.css?id=2">
+</head>
+<body>
+    <main>
+        <center>
+            <div class="container py-5">
+                <div class="alert alert-primary" role="alert">
+                    <h2>Recto Técnico: Training League</h2><br>
+                    <h5>ESTACIÓN ESPACIAL SOFKA</h5><br>                    
+                </div>
+                <div class="alert alert-secondary" role="alert">
+                    <h5>POO JavaScript - by: Luis Enrique Ramírez Ávila</h5>         
+                </div>
+                El siguiente es el artículo que se deben basar para la investigación:<br>
+                <a href="https://moaramore.com/2016/05/14/clasificacion-de-las-naves-espaciales">
+                    https://moaramore.com/2016/05/14/clasificacion-de-las-naves-espaciales
+                </a> 
+                
+                <hr>
+                <h3>Clasificación de las naves espaciales</h3>
+                <div class="iniciar">Iniciar ahora</div>
+                <div class="salir">Detener ahora</div>
+                <div class="resultados">
+
+
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Crear nave BD</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Buscar naves BD</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Inventario naves JSON</button>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                                <h5>#1</h5>
+                                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                      <button class="nav-link active" id="home2-tab" data-bs-toggle="tab" data-bs-target="#home2-tab-pane" type="button" role="tab" aria-controls="home2-tab-pane" aria-selected="true">Nave # 1</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                      <button class="nav-link" id="profile2-tab" data-bs-toggle="tab" data-bs-target="#profile2-tab-pane" type="button" role="tab" aria-controls="profile2-tab-pane" aria-selected="false">Nave # 2</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                      <button class="nav-link" id="contact2-tab" data-bs-toggle="tab" data-bs-target="#contact2-tab-pane" type="button" role="tab" aria-controls="contact2-tab-pane" aria-selected="false">Nave # 3</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="sobre2-tab" data-bs-toggle="tab" data-bs-target="#sobre2-tab-pane" type="button" role="tab" aria-controls="sobre2-tab-pane" aria-selected="false">Nave # 4</button>
+                                      </li>
+                                </ul>
+                                <div class="tab-content" id="myTabContent">
+                                    <div class="tab-pane fade show active" id="home2-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                                        <form method="post" id="formulario1">
+                                            <div class="input-group mb-3">
+                                                <span class="input-group-text" id="basic-addon1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                                        <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                                                    </svg>
+                                                </span>
+                                                <input type="text" class="form-control" placeholder="Nombre de la nave" id="nombreF" required>
+                                                <span class="input-group-text" id="basic-addon1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                                        <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                                                    </svg>
+                                                </span>
+                                                <input type="number" class="form-control" placeholder="Empuje en Toneladas o KG" id="empujeF" required>
+                                            </div>
+                                            <div class="input-group mb-3">
+                                                <span class="input-group-text" id="basic-addon1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                                        <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                                                    </svg>
+                                                </span>
+                                                <select class="form-select" id="destinoF" required>
+                                                    <option value="">Destino...</option>
+                                                    <option value="Luna">Luna</option>
+                                                    <option value="Orbita">Orbita</option>
+                                                    <option value="Saturno y sus lunas">Saturno y sus lunas</option>
+                                                    <option value="Júpiter">Júpiter</option>
+                                                    <option value="Marte">Marte</option>
+                                                    <option value="Mercurio">Mercurio</option>
+                                                    <option value="Plutón">Plutón</option>
+                                                    <option value="Urano y Neptuno">Urano y Neptuno</option>
+                                                    <option value="Sol">Sol</option>
+                                                    <option value="Venus">Venus</option>
+                                                </select>
+                                                <span class="input-group-text" id="basic-addon1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                                        <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                                                    </svg>
+                                                </span>
+                                                <select class="form-select" id="combustibleF" required>
+                                                    <option value="">Combustible...</option>
+                                                    <option value="0">Sin combustible</option>
+                                                    <option value="petróleo refinado y oxígeno líquido ">petróleo refinado y oxígeno líquido </option>
+                                                    <option value="dimetilhidracina y el óxido de nitrógeno">dimetilhidracina y el óxido de nitrógeno</option>
+                                                    <option value="hidrógeno y el oxígeno">hidrógeno y el oxígeno</option>
+                                                    <option value="monometilhidracina (MMH) y óxido nítrico">monometilhidracina (MMH) y óxido nítrico</option>
+                                                    <option value="otros">otros</option>
+                                                </select>
+                                            </div>
+                                            <div class="input-group mb-3">
+                                                <span class="input-group-text" id="basic-addon1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                                        <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                                                    </svg>
+                                                </span>
+                                                <select class="form-select" id="paisF" required>
+                                                    <option value="">Pais...</option>
+                                                    <option value="NASA (EE.UU.)">NASA (EE.UU.)</option>
+                                                    <option value="ESA (Europa)">ESA (Europa)</option>
+                                                    <option value="ASI (Italia)">ASI (Italia)</option>
+                                                    <option value="AJE (Japón)">AJE (Japón)</option>
+                                                    <option value="CSA (Canadá)">CSA (Canadá)</option>
+                                                </select>
+                                                <span class="input-group-text" id="basic-addon1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                                        <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                                                    </svg>
+                                                </span>
+                                                <input type="number" class="form-control" placeholder="velocidad de la nave en m/s" id="velocidadF" required>
+                                            </div>
+                                            <div class="input-group mb-3"><button type="submit" id="submit1">Crear</button></div>
+                                        </form> 
+                                    </div>   
+                                    <div class="tab-pane fade" id="profile2-tab-pane" role="tabpanel" aria-labelledby="profile2-tab" tabindex="0">
+                                        <form  id="formulario2">
+                                            <div class="input-group mb-3">
+                                                <span class="input-group-text" id="basic-addon1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                                        <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                                                    </svg>
+                                                </span>
+                                                <input type="text" class="form-control" placeholder="Nombre de la nave" id="nombreF2" required>
+                                                <span class="input-group-text" id="basic-addon1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                                        <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                                                    </svg>
+                                                </span>
+                                                <input type="number" class="form-control" placeholder="Empuje en Toneladas o KG" id="empujeF2" required>
+                                            </div>
+                                            <div class="input-group mb-3">
+                                                <span class="input-group-text" id="basic-addon1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                                        <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                                                    </svg>
+                                                </span>
+                                                <select class="form-select" id="destinoF2" required>
+                                                    <option value="">Destino...</option>
+                                                    <option value="Luna">Luna</option>
+                                                    <option value="Orbita">Orbita</option>
+                                                    <option value="Saturno y sus lunas">Saturno y sus lunas</option>
+                                                    <option value="Júpiter">Júpiter</option>
+                                                    <option value="Marte">Marte</option>
+                                                    <option value="Mercurio">Mercurio</option>
+                                                    <option value="Plutón">Plutón</option>
+                                                    <option value="Urano y Neptuno">Urano y Neptuno</option>
+                                                    <option value="Sol">Sol</option>
+                                                    <option value="Venus">Venus</option>
+                                                </select>
+                                                <span class="input-group-text" id="basic-addon1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                                        <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                                                    </svg>
+                                                </span>
+                                                <select class="form-select" id="combustibleF2" required>
+                                                    <option value="">Combustible...</option>
+                                                    <option value="0">Sin combustible</option>
+                                                    <option value="petróleo refinado y oxígeno líquido ">petróleo refinado y oxígeno líquido </option>
+                                                    <option value="dimetilhidracina y el óxido de nitrógeno">dimetilhidracina y el óxido de nitrógeno</option>
+                                                    <option value="hidrógeno y el oxígeno">hidrógeno y el oxígeno</option>
+                                                    <option value="monometilhidracina (MMH) y óxido nítrico">monometilhidracina (MMH) y óxido nítrico</option>
+                                                    <option value="otros">otros</option>
+                                                </select>
+                                            </div>
+                                            <div class="input-group mb-3">
+                                                <span class="input-group-text" id="basic-addon1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                                        <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                                                    </svg>
+                                                </span>
+                                                <select class="form-select" id="paisF2" required>
+                                                    <option value="">Pais...</option>
+                                                    <option value="NASA (EE.UU.)">NASA (EE.UU.)</option>
+                                                    <option value="ESA (Europa)">ESA (Europa)</option>
+                                                    <option value="ASI (Italia)">ASI (Italia)</option>
+                                                    <option value="AJE (Japón)">AJE (Japón)</option>
+                                                    <option value="CSA (Canadá)">CSA (Canadá)</option>
+                                                </select>
+                                                <span class="input-group-text" id="basic-addon1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                                        <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                                                    </svg>
+                                                </span>
+                                                <input type="number" class="form-control" placeholder="Altura de la nave en KM" id="alturaF2" required>
+                                            </div>
+                                            <div class="input-group mb-3"><button type="submit" id="submit2">Crear</button></div>
+                                        </form> 
+                                    </div>
+                                    <div class="tab-pane fade" id="contact2-tab-pane" role="tabpanel" aria-labelledby="contact2-tab" tabindex="0">
+                                        <form  id="formulario3">
+                                            <div class="input-group mb-3">
+                                                <span class="input-group-text" id="basic-addon1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                                        <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                                                    </svg>
+                                                </span>
+                                                <input type="text" class="form-control" placeholder="Nombre de la nave" id="nombreF3" required>
+                                                <span class="input-group-text" id="basic-addon1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                                        <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                                                    </svg>
+                                                </span>
+                                                <input type="number" class="form-control" placeholder="Empuje en Toneladas o KG" id="empujeF3" required>
+                                            </div>
+                                            <div class="input-group mb-3">
+                                                <span class="input-group-text" id="basic-addon1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                                        <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                                                    </svg>
+                                                </span>
+                                                <select class="form-select" id="destinoF3" required>
+                                                    <option value="">Destino...</option>
+                                                    <option value="Luna">Luna</option>
+                                                    <option value="Orbita">Orbita</option>
+                                                    <option value="Saturno y sus lunas">Saturno y sus lunas</option>
+                                                    <option value="Júpiter">Júpiter</option>
+                                                    <option value="Marte">Marte</option>
+                                                    <option value="Mercurio">Mercurio</option>
+                                                    <option value="Plutón">Plutón</option>
+                                                    <option value="Urano y Neptuno">Urano y Neptuno</option>
+                                                    <option value="Sol">Sol</option>
+                                                    <option value="Venus">Venus</option>
+                                                </select>
+                                                <span class="input-group-text" id="basic-addon1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                                        <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                                                    </svg>
+                                                </span>
+                                                <select class="form-select" id="combustibleF3" required>
+                                                    <option value="">Combustible...</option>
+                                                    <option value="0">Sin combustible</option>
+                                                    <option value="petróleo refinado y oxígeno líquido ">petróleo refinado y oxígeno líquido </option>
+                                                    <option value="dimetilhidracina y el óxido de nitrógeno">dimetilhidracina y el óxido de nitrógeno</option>
+                                                    <option value="hidrógeno y el oxígeno">hidrógeno y el oxígeno</option>
+                                                    <option value="monometilhidracina (MMH) y óxido nítrico">monometilhidracina (MMH) y óxido nítrico</option>
+                                                    <option value="otros">otros</option>
+                                                </select>
+                                            </div>
+                                            <div class="input-group mb-3">
+                                                <span class="input-group-text" id="basic-addon1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                                        <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                                                    </svg>
+                                                </span>
+                                                <select class="form-select" id="paisF3" required>
+                                                    <option value="">Pais...</option>
+                                                    <option value="NASA (EE.UU.)">NASA (EE.UU.)</option>
+                                                    <option value="ESA (Europa)">ESA (Europa)</option>
+                                                    <option value="ASI (Italia)">ASI (Italia)</option>
+                                                    <option value="AJE (Japón)">AJE (Japón)</option>
+                                                    <option value="CSA (Canadá)">CSA (Canadá)</option>
+                                                </select>
+                                                <span class="input-group-text" id="basic-addon1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                                        <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                                                    </svg>
+                                                </span>
+                                                <input type="number" class="form-control" placeholder="Peso de la nave" id="pesoF3" required>
+                                            </div>
+                                            <div class="input-group mb-3"><button type="submit" id="submit3">Crear</button></div>
+                                        </form> 
+                                    </div>
+                                    <div class="tab-pane fade" id="sobre2-tab-pane" role="tabpanel" aria-labelledby="sobre2-tab" tabindex="0">
+                                        <form  id="formulario4">
+                                            <div class="input-group mb-3">
+                                                <span class="input-group-text" id="basic-addon1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                                        <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                                                    </svg>
+                                                </span>
+                                                <input type="text" class="form-control" placeholder="Nombre de la nave" id="nombreF4" required>
+                                                <span class="input-group-text" id="basic-addon1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                                        <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                                                    </svg>
+                                                </span>
+                                                <input type="number" class="form-control" placeholder="Empuje en Toneladas o KG" id="empujeF4" required>
+                                            </div>
+                                            <div class="input-group mb-3">
+                                                <span class="input-group-text" id="basic-addon1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                                        <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                                                    </svg>
+                                                </span>
+                                                <select class="form-select" id="destinoF4" required>
+                                                    <option value="">Destino...</option>
+                                                    <option value="Luna">Luna</option>
+                                                    <option value="Orbita">Orbita</option>
+                                                    <option value="Saturno y sus lunas">Saturno y sus lunas</option>
+                                                    <option value="Júpiter">Júpiter</option>
+                                                    <option value="Marte">Marte</option>
+                                                    <option value="Mercurio">Mercurio</option>
+                                                    <option value="Plutón">Plutón</option>
+                                                    <option value="Urano y Neptuno">Urano y Neptuno</option>
+                                                    <option value="Sol">Sol</option>
+                                                    <option value="Venus">Venus</option>
+                                                </select>
+                                                <span class="input-group-text" id="basic-addon1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                                        <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                                                    </svg>
+                                                </span>
+                                                <select class="form-select" id="combustibleF4" required>
+                                                    <option value="">Combustible...</option>
+                                                    <option value="0">Sin combustible</option>
+                                                    <option value="petróleo refinado y oxígeno líquido ">petróleo refinado y oxígeno líquido </option>
+                                                    <option value="dimetilhidracina y el óxido de nitrógeno">dimetilhidracina y el óxido de nitrógeno</option>
+                                                    <option value="hidrógeno y el oxígeno">hidrógeno y el oxígeno</option>
+                                                    <option value="monometilhidracina (MMH) y óxido nítrico">monometilhidracina (MMH) y óxido nítrico</option>
+                                                    <option value="otros">otros</option>
+                                                </select>
+                                            </div>
+                                            <div class="input-group mb-3">
+                                                <span class="input-group-text" id="basic-addon1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                                        <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                                                    </svg>
+                                                </span>
+                                                <select class="form-select" id="paisF4" required>
+                                                    <option value="">Pais...</option>
+                                                    <option value="NASA (EE.UU.)">NASA (EE.UU.)</option>
+                                                    <option value="ESA (Europa)">ESA (Europa)</option>
+                                                    <option value="ASI (Italia)">ASI (Italia)</option>
+                                                    <option value="AJE (Japón)">AJE (Japón)</option>
+                                                    <option value="CSA (Canadá)">CSA (Canadá)</option>
+                                                </select>
+                                                <span class="input-group-text" id="basic-addon1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                                        <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                                                    </svg>
+                                                </span>
+                                                <select class="form-select" id="tipoF4" required>
+                                                    <option value="">Tipo...</option>
+                                                    <option value="1. VEHÍCULOS LANZADERA">1. VEHÍCULOS LANZADERA</option>
+                                                    <option value="2. NAVES ESPACIALES NO TRIPULADAS">2. NAVES ESPACIALES NO TRIPULADAS</option>
+                                                    <option value="3. NAVES ESPACIALES TRIPULADAS">3. NAVES ESPACIALES TRIPULADAS</option>
+                                                </select>
+                                            </div>
+                                            <div class="input-group mb-3"><button type="submit" id="submit4">Crear</button></div>
+                                        </form> 
+                                    </div>
+                                </div> 
+                                
+                                
+                               
+                                
+                        </div><!--home active-->
+                        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                                <h5>#2</h5>
+                                <form id="buscarF">
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control" placeholder="Buscar por nombre" id="nombreB">
+                                    </div>
+                                    <div class="input-group mb-3">
+                                        <select class="form-select" id="destinoB">
+                                            <option value="">Filtrar destino</option>
+                                            <option value="Luna">Luna</option>
+                                            <option value="Orbita">Orbita</option>
+                                            <option value="Saturno y sus lunas">Saturno y sus lunas</option>
+                                            <option value="Júpiter">Júpiter</option>
+                                            <option value="Marte">Marte</option>
+                                            <option value="Mercurio">Mercurio</option>
+                                            <option value="Plutón">Plutón</option>
+                                            <option value="Urano y Neptuno">Urano y Neptuno</option>
+                                            <option value="Sol">Sol</option>
+                                            <option value="Venus">Venus</option>
+                                        </select>
+                                        <select class="form-select" id="paisB">
+                                            <option value="">Filtrar pais</option>
+                                            <option value="NASA (EE.UU.)">NASA (EE.UU.)</option>
+                                            <option value="ESA (Europa)">ESA (Europa)</option>
+                                            <option value="ASI (Italia)">ASI (Italia)</option>
+                                            <option value="AJE (Japón)">AJE (Japón)</option>
+                                            <option value="CSA (Canadá)">CSA (Canadá)</option>
+                                        </select>
+                                        
+                                        <select class="form-select" id="accionB">
+                                            <option value="">Filtrar por acción</option>
+                                            <option value="Velocidad">Velocidad</option>
+                                            <option value="Altura">Altura</option>
+                                            <option value="Peso">Peso</option>
+                                            <option value="Tipo">Tipo</option>
+                                        </select>
+                                        <button type="submit">Buscar</button>
+                                    </div>
+                                </form>
+                                <h5>Resultado</h5>
+                                <hr>
+                                <div class="row row-cols-1 row-cols-md-1">
+                                    <div id="resultadoBuscador"></div>
+                                </div>
+                        </div>
+                        <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+                                <h5>#3</h5>
+                                <div class="p-3 my-2 bg-light text-dark rounded" id="categoria1"></div>
+                                <div class="row row-cols-1 row-cols-md-1 ">
+                                        <div id="inv1"></div> 
+                                </div>
+                                <div class="p-3 my-2 bg-light text-dark rounded" id="categoria2"></div>
+                                <div class="row row-cols-1 row-cols-md-1 ">
+                                        <div id="inv2"></div> 
+                                </div>
+                                <div class="p-3 my-2 bg-light text-dark rounded" id="categoria3"></div>
+                                <div class="row row-cols-1 row-cols-md-1 ">
+                                        <div id="inv3"></div> 
+                                </div> 
+                        </div>
+                        
+                    </div>
+
+
+                    <div class="alert alert-success" role="alert" id="alertaN1positivo"></div>
+                    <div class="alert alert-success" role="alert" id="alertaN2positivo"></div>
+                    <div class="alert alert-success" role="alert" id="alertaN3positivo"></div>
+                    <div class="alert alert-success" role="alert" id="alertaN4positivo"></div>
+                    <div class="alert alert-danger" role="alert" id="alertaN1negativo"></div>
+                    <div class="alert alert-danger" role="alert" id="alertaN2negativo"></div>
+                    <div class="alert alert-danger" role="alert" id="alertaN3negativo"></div>
+                    <div class="alert alert-danger" role="alert" id="alertaN4negativo"></div>
+
+
+
+
+
+
+                </div>
+            </div>
+           <div id="loading-fin"></div>
+        </center>
+    </main>
+
+
+    <template id="template-nav-inv">
+        <div class="col mx-3">
+            <div class="card py-3">
+                <img src="..." class="card-img-top"  lazy="loading" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <hr>
+                    <p class="card-text">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-airplane" viewBox="0 0 16 16">
+                            <path d="M6.428 1.151C6.708.591 7.213 0 8 0s1.292.592 1.572 1.151C9.861 1.73 10 2.431 10 3v3.691l5.17 2.585a1.5 1.5 0 0 1 .83 1.342V12a.5.5 0 0 1-.582.493l-5.507-.918-.375 2.253 1.318 1.318A.5.5 0 0 1 10.5 16h-5a.5.5 0 0 1-.354-.854l1.319-1.318-.376-2.253-5.507.918A.5.5 0 0 1 0 12v-1.382a1.5 1.5 0 0 1 .83-1.342L6 6.691V3c0-.568.14-1.271.428-1.849Zm.894.448C7.111 2.02 7 2.569 7 3v4a.5.5 0 0 1-.276.447l-5.448 2.724a.5.5 0 0 0-.276.447v.792l5.418-.903a.5.5 0 0 1 .575.41l.5 3a.5.5 0 0 1-.14.437L6.708 15h2.586l-.647-.646a.5.5 0 0 1-.14-.436l.5-3a.5.5 0 0 1 .576-.411L15 11.41v-.792a.5.5 0 0 0-.276-.447L9.276 7.447A.5.5 0 0 1 9 7V3c0-.432-.11-.979-.322-1.401C8.458 1.159 8.213 1 8 1c-.213 0-.458.158-.678.599Z"/>
+                        </svg>
+                        <span id="empuje"></span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bullseye" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                            <path d="M8 13A5 5 0 1 1 8 3a5 5 0 0 1 0 10zm0 1A6 6 0 1 0 8 2a6 6 0 0 0 0 12z"/>
+                            <path d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8z"/>
+                            <path d="M9.5 8a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+                        </svg>
+                        <span id="destino"></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <template id="template-nav-buscador">
+        <div class="card" style="width: 18rem; margin: 10px;">
+            <div class="card-header"></div>
+
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"></li>
+              <li class="list-group-item"></li>
+              <li class="list-group-item"></li>
+              <li class="list-group-item"></li>
+              <li class="list-group-item"></li>
+            </ul>
+          </div>
+    </template>
+
+    <script src="vista/js/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="controlador.js?id=4"></script>
+</body>
+</html>
