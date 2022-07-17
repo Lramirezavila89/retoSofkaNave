@@ -3,6 +3,11 @@ _El proyecto se basa en la **Clasificación de las naves espaciales***, el cual 
 
 ## Comenzando 🚀
 
+_Vamos a iniciar  explicando los requisitos necesarios para ejecutar el proyecto, posteriormente conoceremos cada uno de los pasos y herramientas que utilizaremos a lo largo de la documentación para finalizar con exito la instalación, ejecución y visualización de **retoSofkaNave**_
+
+
+## Pre-requisitos 📋
+
 _***Pasos:***_
 
 _1. Debemos instalar apache con sus versiones php7 actuales, donde les recomiendo utilizar [VISUAL STUDIO CODE](https://code.visualstudio.com/) o [XAMPP](https://www.apachefriends.org/es/index.html)_
@@ -12,7 +17,7 @@ _2. Descargar el repositorio de **Github** /retoSofkaNave el cual contiene todos
 _3. Ejecutamos la URL **localhost/phpmyadmin/** y creamos una nueva base de datos llamada "naves", donde vamos a importar el archivo <sub>naves.sql</sub>_
 
 
-## Pre-requisitos 📋
+## Instalación 🔧
 
 _1.Ejecutar xampp e instalar en el disco local_
 
@@ -29,24 +34,6 @@ _3. copiamos los archivos descargados y los pegamos en la ruta de localhost dond
 ```
 C:/xampp/htdocs/
 ```
-
-## Instalación 🔧
-
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
-
-_Dí cómo será ese paso_
-
-```
-Da un ejemplo
-```
-
-_Y repite_
-
-```
-hasta finalizar
-```
-
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
 
 ## Ejecutando las pruebas ⚙️
 
