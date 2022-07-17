@@ -47,7 +47,7 @@ http://localhost:3000/index.html
 ```
 _ya dependerá del puerto que asigne automaticamente; veamos un ejemplo:_
 
-![Ejemplo](https://milenaavilezodontologa.com/retoSofkaNaves/vista/img/1.png)
+![Ejemplo](https://milenaavilezodontologa.com/retoSofkaNaves/vista/img/2.png)
 
 
 ## Ejecutando las pruebas ⚙️
