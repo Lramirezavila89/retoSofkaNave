@@ -84,17 +84,19 @@ _Se crean metodos visuales de HTML utilizando template y fragment en funciones d
 
 ![Ejemplo](https://milenaavilezodontologa.com/retoSofkaNaves/vista/img/6.png)
 
-## Despliegue 📦
+## Despliegue y DEMO 📦
 
-_Agrega notas adicionales sobre como hacer deploy_
+_Para la realización del deploy utilice un hosting compartido donde aloje el reto tal cual se encuentra en /retoSofkaNaves_
 
-## Construido con 🛠️
+**Demo:** [Ejecutar demo](https://milenaavilezodontologa.com/retoSofkaNaves/)
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
+## Construcción 🛠️
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
+_Las herramientas utilizadas para la construcción del reto fueron:_
+
+* [Xampp](https://www.apachefriends.org/es/index.html) - Xampp como servidor local de prueba
+* [Boostrap](https://getbootstrap.com/) - Boostrap como librerias de estilos 
+* [VSC](https://code.visualstudio.com/) - Como editor se utilizó Visual Studio Code
 
 ## Contribuyendo 🖇️
 
