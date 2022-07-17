@@ -117,4 +117,4 @@ Por favor lee el [README.md](https://github.com/Lramirezavila89/retoSofkaNave/bl
 
 
 ---
-⌨️ con ❤️ por [Villanuevand](https://github.com/Villanuevand) 😊
+⌨️ con ❤️ por [Lramirezavila89](https://github.com/Lramirezavila89) 😊
