@@ -41,6 +41,10 @@ http://localhost/phpmyadmin/
 
 ![Ejemplo](https://milenaavilezodontologa.com/retoSofkaNaves/vista/img/3.png)
 
+_podemos observar la base de datos relacional implementada_
+
+![Ejemplo](https://milenaavilezodontologa.com/retoSofkaNaves/vista/img/7.png)
+
 _5. Ingresamos a nuestro navegador de preferencia y ejecutaremos el proyecto mediante la siguiente URL:_
 
 ```
