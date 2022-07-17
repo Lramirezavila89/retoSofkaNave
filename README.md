@@ -35,6 +35,21 @@ _3. copiamos los archivos descargados y los pegamos en la ruta de localhost dond
 C:/xampp/htdocs/
 ```
 
+_4. Ingresamos a nuestro navegador de preferencia y ejecutaremos el proyecto mendiate la siguiente URL:
+
+```
+http://localhost/retoSofkaNave/index.html
+```
+_o desde Visual Studio Code "reload PHP" como:_
+
+```
+http://localhost:3000/index.html
+```
+_ya dependerá del puerto que asigne automaticamente; veamos un ejemplo:_
+
+![Ejemplo](https://milenaavilezodontologa.com/retoSofkaNaves/vista/img/1.png)
+
+
 ## Ejecutando las pruebas ⚙️
 
 _Explica como ejecutar las pruebas automatizadas para este sistema_
