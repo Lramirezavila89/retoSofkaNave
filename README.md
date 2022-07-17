@@ -1,5 +1,5 @@
 # retoSofkaNave
-_El proyecto se basa en la **Clasificación de las naves espaciales***, el cual he nombrado retoSofkaNave, tal como indica su nombre, es un reto para la presentación del Automation Training League de Sofka, el cual consiste en aplicar POO (Programación Orientada a Objetos) y definir unos retos aplicando dichos conceptos; sin embargo, cada pre-requisito, instalación, análisis y presentación la describiremos a continuación:_
+_El proyecto se basa en la **Clasificación de las naves espaciales***, el cual he nombrado retoSofkaNave, tal como indica su nombre, es un reto para la presentación del Automation Training League de Sofka, el cual consiste en aplicar POO (Programación Orientada a Objetos)  y definir unos retos aplicando dichos conceptos en cual he utilizado **javascript** ; sin embargo, cada pre-requisito, instalación, análisis y presentación la describiremos a continuación:_
 
 ## Comenzando 🚀
 
@@ -13,8 +13,6 @@ _***Pasos:***_
 _1. Debemos instalar apache con sus versiones php7 actuales, donde les recomiendo utilizar [VISUAL STUDIO CODE](https://code.visualstudio.com/) o [XAMPP](https://www.apachefriends.org/es/index.html)_
 
 _2. Descargar el repositorio de **Github** /retoSofkaNave el cual contiene todos los archivos necesario para su funcionamiento_
-
-_3. Ejecutamos la URL **localhost/phpmyadmin/** y creamos una nueva base de datos llamada "naves", donde vamos a importar el archivo <sub>naves.sql</sub>_
 
 
 ## Instalación 🔧
@@ -35,7 +33,15 @@ _3. copiamos los archivos descargados y los pegamos en la ruta de localhost dond
 C:/xampp/htdocs/
 ```
 
-_4. Ingresamos a nuestro navegador de preferencia y ejecutaremos el proyecto mendiate la siguiente URL:
+_4. Ejecutamos la URL **localhost/phpmyadmin/** y creamos una nueva base de datos llamada "naves", donde vamos a importar el archivo <sub>naves.sql</sub> que esta dentro del proyecto_
+
+```
+http://localhost/phpmyadmin/
+```
+
+![Ejemplo](https://milenaavilezodontologa.com/retoSofkaNaves/vista/img/3.png)
+
+_5. Ingresamos a nuestro navegador de preferencia y ejecutaremos el proyecto mendiate la siguiente URL:_
 
 ```
 http://localhost/retoSofkaNave/index.html
@@ -52,23 +58,31 @@ _ya dependerá del puerto que asigne automaticamente; veamos un ejemplo:_
 
 ## Ejecutando las pruebas ⚙️
 
-_Explica como ejecutar las pruebas automatizadas para este sistema_
+_Como el desarrollo del reto fue aplicado mediante el lenguaje de programación **javascript** las pruebamos las podemos enfocar mediante la consola del navegador y/o dentro del mismo código con la palabra reservada <sub>console.log()</sub>_
 
-### Analice las pruebas end-to-end 🔩
+### Explicación del código fuente 🔩
 
-_Explica que verifican estas pruebas y por qué_
+_1. Iniciar creando un <sub>index.html</sub> que contiene las librerias js y css de **Bootstrap** [librerias](https://getbootstrap.com/) , dentro de este archivo especificamos un script llamado "controlador.js" que va a contener todas las clases, instancias e interfaces del reto basados bajo un MVC_
 
-```
-Da un ejemplo
-```
+_2. El script <sub>controlador.js</sub> esta sectorizado en 3 partes MODELO - CONTROLADOR  - VISTA como se observa en la siguiente imagen:
 
-### Y las pruebas de estilo de codificación ⌨️
+### MODELO
 
-_Explica que verifican estas pruebas y por qué_
+_Se crea todas las clases con sus respectivos atributos y metodos_
 
-```
-Da un ejemplo
-```
+![Ejemplo](https://milenaavilezodontologa.com/retoSofkaNaves/vista/img/4.png)
+
+### CONTROLADOR
+
+_Se crea un control de de las clases y las vistas mediante el DOM por medio de instancias_
+
+![Ejemplo](https://milenaavilezodontologa.com/retoSofkaNaves/vista/img/5.png)
+
+### VISTA
+
+_Se crean metodos visuales de HTML utilizando template y fragment en funciones declaradas como <sub>pintar</sub>CualquierCosa y son reflejadas en el DOM_
+
+![Ejemplo](https://milenaavilezodontologa.com/retoSofkaNaves/vista/img/6.png)
 
 ## Despliegue 📦
 
